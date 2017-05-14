@@ -1,0 +1,50 @@
+/*
+CSS Stylesheet List for Posts per Cat
+Plugin URI: http://urosevic.net/wordpress/plugins/posts-per-cat/
+Author: Aleksandar Urošević
+Version: 1.4.0
+Author URI: http://urosevic.net
+*/
+
+#ppc-box .ppc-box {
+	padding: 5px;
+}
+#ppc-box .ppc-box .ppc {
+	border: 1px solid #DEDBD1;
+	background: #fff url(../img/ppc_bg.gif) no-repeat bottom right;
+	margin: 0;
+	padding: 10px;
+}
+#ppc-box .ppc-box .ppc h3 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 16px;
+}
+/* list style */
+#ppc-box .ppc-box .ppc ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#ppc-box .ppc-box .ppc ul li {
+	padding-left: 15px;
+	background: url(../img/bullet.gif) no-repeat left top;
+}
+#ppc-box .ppc-box .ppc ul li a {
+	font-size: 14px;
+	line-height: 1.2em;
+	clear: both;
+	position: relative;
+}
+#ppc-box .ppc-box .ppc ul li .ppc-comments-num,
+#ppc-box .ppc-box .ppc ul li .ppc-comments-num a { font-size: 100%; }
+
+/* fonts and colors of content */
+#ppc-box .ppc-box .ppc ul li p {
+	font-size: 14px;
+	line-height: 1.4em;
+	text-align: left;
+	padding: 0;
+	margin: 0 0 1.4em 0;
+	color: #404040;
+}

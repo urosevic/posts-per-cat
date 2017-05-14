@@ -1,0 +1,76 @@
+/*
+CSS Stylesheet for Posts per Cat
+Plugin URI: http://urosevic.net/wordpress/plugins/posts-per-cat/
+Author: Aleksandar Urošević
+Version: 1.0.0
+Author URI: http://urosevic.net
+*/
+#ppc-box {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 100%;
+	clear: both;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+#ppc-box:after,
+#ppc-box .clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	position: relative;
+	width: 100%;
+	content: "\0020";
+}
+
+/* columns */
+#ppc-box .ppc-box {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: relative;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+#ppc-box .one {
+	width: 100%;
+	clear: both;
+}
+#ppc-box .two {
+	width: 50%;
+}
+#ppc-box .three {
+	width: 33.3333%;
+}
+#ppc-box .four {
+	width: 25%;
+}
+#ppc-box .five {
+	width: 20%;
+}
+
+/* category box content */
+#ppc-box .ppc-box .ppc ul li p {
+	clear: both;
+}
+#ppc-box .ppc-box .ppc .ppc-more {
+	display: block;
+	clear: both;
+	position: relative;
+	width: 100%;
+	text-align: right;
+}
+.ppc li {
+	clear: both;
+}
+.ppc li p img {
+	float: left !important;
+	position: relative !important;
+	margin: 0 10px 5px 0 !important;
+	padding: 0 !important;
+	border: none !important;
+}
