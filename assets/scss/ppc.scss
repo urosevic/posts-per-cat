@@ -1,0 +1,76 @@
+/**
+ * CSS Stylesheet for Posts per Cat
+ * Plugin URI: https://urosevic.net/wordpress/plugins/posts-per-cat/
+ * Author: Aleksandar Urošević
+ * Version: 1.5.0
+ * Author URI: https://urosevic.net
+ */
+$col-gap: 15px;
+
+#ppc-box {
+	border: none;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	gap: $col-gap;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+	/* columns */
+	.ppc-box {
+		box-sizing: border-box;
+		position: relative;
+		padding: 0;
+		margin: 0;
+
+		/* category box content */
+		.ppc {
+			ul {
+				display: flex;
+				flex-direction: column;
+				li {
+					p {
+						img {
+							border: none !important;
+							float: left !important;
+							margin: 0 10px 5px 0 !important;
+							padding: 0 !important;
+							position: relative !important;
+						}
+					}
+				}
+			}
+			.ppc-more {
+				clear: both;
+				display: block;
+				position: relative;
+				text-align: right;
+				width: 100%;
+			}
+		}
+	}
+
+	// Columns 1 | 2 | 3 | 4 | 5
+	@each $name, $cols in (
+		one: 1,
+		two: 2,
+		three: 3,
+		four: 4,
+		five: 5
+	) {
+		&.#{$name} {
+			.ppc-box {
+				width: calc((100% - #{($cols - 1) * $col-gap}) / #{$cols});
+			}
+		}
+	}
+
+	// Mobile override columns to full width
+	@media (max-width: 600px) {
+		.ppc-box {
+			width: 100% !important;
+		}
+	}
+}

@@ -1,0 +1,56 @@
+/*
+CSS Stylesheet List for Posts per Cat
+Plugin URI: https://urosevic.net/wordpress/plugins/posts-per-cat/
+Author: Aleksandar Urošević
+Version: 1.5.0
+Author URI: https://urosevic.net
+*/
+
+#ppc-box {
+	.ppc-box {
+		.ppc {
+			background: #fff url(../img/ppc_bg.png) no-repeat bottom right;
+			border: 1px solid #dedbd1;
+			margin: 0;
+			padding: 10px;
+
+			h3 {
+				font-size: 16px;
+				margin: 0 0 10px 0;
+				padding: 0;
+			}
+			/* list style */
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+
+				li {
+					background: url(../img/bullet.gif) no-repeat left calc(.6em - 2px);
+					padding-left: 15px;
+
+					a {
+						clear: both;
+						font-size: 14px;
+						line-height: 1.2em;
+						position: relative;
+					}
+					.ppc-comments-num,
+					.ppc-comments-num a {
+						font-size: 100%;
+					}
+					
+					/* fonts and colors of content */
+					p {
+						color: #404040;
+						font-size: 14px;
+						line-height: 1.4em;
+						margin: 0 0 1.4em 0;
+						text-align: left;
+						padding: 0;
+					}
+				}
+			}
+		}
+	}
+}

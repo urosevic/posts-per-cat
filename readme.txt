@@ -1,10 +1,11 @@
-=== Posts per Cat [Unmaintained] ===
-Tags: category, categories, posts, archives, list, post list, recent, recent posts, excerpt, thumbnail, widget, shortcode
-Contributors: urkekg
-Donate link: http://urosevic.net/wordpress/donate/?donate_for=posts-per-cat
-Requires at least: 3.8.0
-Tested up to: 4.4
-Stable tag: 1.4.2
+=== Posts per Cat ===
+Tags: category, posts, archives, recent posts, excerpt
+Contributors: urkekg, techwebux
+Donate link: https://urosevic.net/wordpress/donate/?donate_for=posts-per-cat
+Requires at least: 5.0
+Requires PHP: 7.4
+Tested up to: 6.8.1
+Stable tag: 1.5.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,10 +15,7 @@ Group recent posts by category and show them inside boxes organized to columns.
 
 Posts per Cat is a simple plugin that grab all or only selected categories from blog database, and then list recent N posts from each category, organised in 1-5 columns.
 
-IMPORTANT NOTICE
-Plugin Posts-per-Cat is unmaintained. That means no further updates or free plugin support will be available.
-
-If you are interested to acquisition of plugin, please [contact us](http://urosevic.net/wordpress/contact/?subject=Posts-per-Cat%20Acquisition).
+If you are interested to acquisition of plugin, please [contact us](https://urosevic.net/wordpress/contact/?subject=Posts-per-Cat%20Acquisition).
 
 = Features =
 * choose how many boxes per row will be displayed (one, two, three, four or five)
@@ -115,6 +113,11 @@ Enable option `Use post content as excerpt` in widget, or provide shortcode para
 4. Posts per Cat: all cats, 3 column, w/ enabled CSS
 
 == Upgrade Notice ==
+
+= 1.5.0 =
+* Make backup before upgrade!
+* Review shortcode/widget settings after upgrade.
+
 = 1.4.0 =
 * Make backup before upgrade!
 * Install and activate Redux Framework Plugin to motify global Posts-per-Cat settings.
@@ -128,6 +131,15 @@ Enable option `Use post content as excerpt` in widget, or provide shortcode para
 * We changed options names for number of columns, number of posts and excerpts visibility. We recommend you to update plugin settings after update.
 
 == Changelog ==
+
+= 1.5.0 (2025-05-12) =
+* Fix vulnerabilities reported by muhammad yudha via WordFence Responsible Disclosure
+* Update compatibility to WordPress 6.8
+* Make columns responsive and use modern `flexbox` instead of the legacy `floats`
+* Sassify styles
+* Partial code cleanup
+* Reactivate plugin development
+
 = 1.4.2 (2015-11-28) =
 * Change plugin status to Unmaintained
 * Intorduce acquisition of plugin for interested third parties
