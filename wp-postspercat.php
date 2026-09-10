@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Posts per Cat
- * Plugin URI: http://urosevic.net/wordpress/plugins/posts-per-cat/
+ * Plugin URI: https://devyard.urosevic.net/plugins/posts-per-cat/
  * Description: Group latest posts by selected category and show post titles w/ or w/o excerpt, featured image and comments number in boxes organized to columns. Please note, for global settings you need to have installed and active <strong>Redux Framework Plugin</strong>.
  * Version: 1.5.0
  * Requires PHP: 7.4

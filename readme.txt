@@ -1,7 +1,7 @@
 === Posts per Cat ===
 Tags: category, posts, archives, recent posts, excerpt
 Contributors: urkekg, techwebux
-Donate link: https://urosevic.net/wordpress/donate/?donate_for=posts-per-cat
+Donate link: https://devyard.urosevic.net/donate/?donate_for=posts-per-cat
 Requires at least: 5.0
 Requires PHP: 7.4
 Tested up to: 6.8.1
@@ -15,7 +15,7 @@ Group recent posts by category and show them inside boxes organized to columns.
 
 Posts per Cat is a simple plugin that grab all or only selected categories from blog database, and then list recent N posts from each category, organised in 1-5 columns.
 
-If you are interested to acquisition of plugin, please [contact us](https://urosevic.net/wordpress/contact/?subject=Posts-per-Cat%20Acquisition).
+If you are interested to acquisition of plugin, please [contact us](https://devyard.urosevic.net/contact/?subject=Posts-per-Cat%20Acquisition).
 
 = Features =
 * choose how many boxes per row will be displayed (one, two, three, four or five)
